@@ -8,18 +8,16 @@ No need to remember SQL syntax. Just ask:
 > “Add a product called ‘Flux Capacitor’ priced at $299.”  
 > “Which employee joined after 2022?”
 
-[View the GitHub Actions status](#)
-
 ---
 
 ## Features
 
-- 📥 Upload any `.csv` file and auto-create tables in SQLite
-- 💬 Run natural language queries powered by GPT-4
-- 📊 Dynamic schema extraction for query generation
-- 🧠 Smart handling of inserts, updates, and selects
-- ✅ Unit-tested with GitHub Actions CI
-- 🔐 API key stored securely using `.env`
+- Upload any `.csv` file and auto-create tables in SQLite
+- Run natural language queries powered by GPT-4
+- Dynamic schema extraction for query generation
+- Smart handling of inserts, updates, and selects
+- Unit-tested with GitHub Actions CI
+- API key stored securely using `.env` in the root folder
 
 ---
 
