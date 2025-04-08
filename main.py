@@ -46,7 +46,6 @@ def cli_loop():
             csv_files = list_csv_files()
             if csv_files:
                 file_choice = input("Enter the CSV file name (or number) you want to upload: ").strip()
-                # Allow file selection by number or by name
                 if file_choice.isdigit():
                     idx = int(file_choice) - 1
                     if 0 <= idx < len(csv_files):
