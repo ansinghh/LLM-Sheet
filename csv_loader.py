@@ -6,7 +6,6 @@ def infer_sqlite_type(pd_series):
     elif pd.api.types.is_float_dtype(pd_series):
         return "REAL"
     else:
-        # Default to TEXT for strings, dates, etc.
         return "TEXT"
 
 def create_table_from_csv(csv_path, table_name, conn):
